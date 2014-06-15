@@ -22,6 +22,7 @@
 		5BFF7888194E1C1000FD138E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFF7867194E1C0F00FD138E /* UIKit.framework */; };
 		5BFF7890194E1C1000FD138E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF788E194E1C1000FD138E /* InfoPlist.strings */; };
 		5BFF7892194E1C1000FD138E /* BouncerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF7891194E1C1000FD138E /* BouncerTests.m */; };
+		5BFF789C194E295300FD138E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF789B194E295300FD138E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		5BFF788D194E1C1000FD138E /* BouncerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BouncerTests-Info.plist"; sourceTree = "<group>"; };
 		5BFF788F194E1C1000FD138E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BFF7891194E1C1000FD138E /* BouncerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncerTests.m; sourceTree = "<group>"; };
+		5BFF789B194E295300FD138E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		5BFF7857194E1C0F00FD138E = {
 			isa = PBXGroup;
 			children = (
+				5BFF789B194E295300FD138E /* README.md */,
 				5BFF7869194E1C0F00FD138E /* Bouncer */,
 				5BFF788B194E1C1000FD138E /* BouncerTests */,
 				5BFF7862194E1C0F00FD138E /* Frameworks */,
@@ -114,10 +117,6 @@
 		5BFF7869194E1C0F00FD138E /* Bouncer */ = {
 			isa = PBXGroup;
 			children = (
-				5BFF7872194E1C0F00FD138E /* AppDelegate.h */,
-				5BFF7873194E1C0F00FD138E /* AppDelegate.m */,
-				5BFF7875194E1C0F00FD138E /* Main_iPhone.storyboard */,
-				5BFF7878194E1C0F00FD138E /* Main_iPad.storyboard */,
 				5BFF787B194E1C0F00FD138E /* ViewController.h */,
 				5BFF787C194E1C0F00FD138E /* ViewController.m */,
 				5BFF787E194E1C0F00FD138E /* Images.xcassets */,
@@ -129,6 +128,10 @@
 		5BFF786A194E1C0F00FD138E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5BFF7872194E1C0F00FD138E /* AppDelegate.h */,
+				5BFF7873194E1C0F00FD138E /* AppDelegate.m */,
+				5BFF7875194E1C0F00FD138E /* Main_iPhone.storyboard */,
+				5BFF7878194E1C0F00FD138E /* Main_iPad.storyboard */,
 				5BFF786B194E1C0F00FD138E /* Bouncer-Info.plist */,
 				5BFF786C194E1C0F00FD138E /* InfoPlist.strings */,
 				5BFF786F194E1C0F00FD138E /* main.m */,
@@ -233,6 +236,7 @@
 			files = (
 				5BFF787A194E1C0F00FD138E /* Main_iPad.storyboard in Resources */,
 				5BFF787F194E1C0F00FD138E /* Images.xcassets in Resources */,
+				5BFF789C194E295300FD138E /* README.md in Resources */,
 				5BFF7877194E1C0F00FD138E /* Main_iPhone.storyboard in Resources */,
 				5BFF786E194E1C0F00FD138E /* InfoPlist.strings in Resources */,
 			);
