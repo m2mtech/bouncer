@@ -23,6 +23,7 @@
 		5BFF7890194E1C1000FD138E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF788E194E1C1000FD138E /* InfoPlist.strings */; };
 		5BFF7892194E1C1000FD138E /* BouncerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF7891194E1C1000FD138E /* BouncerTests.m */; };
 		5BFF789C194E295300FD138E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF789B194E295300FD138E /* README.md */; };
+		5BFF78AF194F29D400FD138E /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5BFF78AE194F29D400FD138E /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		5BFF788F194E1C1000FD138E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BFF7891194E1C1000FD138E /* BouncerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncerTests.m; sourceTree = "<group>"; };
 		5BFF789B194E295300FD138E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5BFF78AE194F29D400FD138E /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				5BFF787B194E1C0F00FD138E /* ViewController.h */,
 				5BFF787C194E1C0F00FD138E /* ViewController.m */,
 				5BFF787E194E1C0F00FD138E /* Images.xcassets */,
+				5BFF78AE194F29D400FD138E /* Settings.bundle */,
 				5BFF786A194E1C0F00FD138E /* Supporting Files */,
 			);
 			path = Bouncer;
@@ -238,6 +241,7 @@
 				5BFF787F194E1C0F00FD138E /* Images.xcassets in Resources */,
 				5BFF789C194E295300FD138E /* README.md in Resources */,
 				5BFF7877194E1C0F00FD138E /* Main_iPhone.storyboard in Resources */,
+				5BFF78AF194F29D400FD138E /* Settings.bundle in Resources */,
 				5BFF786E194E1C0F00FD138E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
